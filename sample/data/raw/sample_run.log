@@ -1,0 +1,129 @@
+2026-03-01T09:00:00.066 [INFO] VoiceAssistant (TC_VOICE_002): wake word detected
+2026-03-01T09:00:00.225 [INFO] RearCamera (TC_REARC_002): stream started
+2026-03-01T09:00:00.647 [INFO] MediaPlayer (TC_MEDIA_001): playback started
+2026-03-01T09:00:00.956 [INFO] VoiceAssistant (TC_VOICE_001): wake word detected
+2026-03-01T09:00:01.027 [INFO] AppFramework (TC_APPFR_001): lifecycle resumed
+2026-03-01T09:00:01.266 [INFO] RearCamera (TC_REARC_001): overlay drawn
+2026-03-01T09:00:01.455 [INFO] AppFramework (TC_APPFR_003): app launched
+2026-03-01T09:00:01.551 [INFO] RearCamera (TC_REARC_003): stream started
+2026-03-01T09:00:01.769 [INFO] RearCamera (TC_REARC_003): stream started
+2026-03-01T09:00:02.073 [INFO] RearCamera (TC_REARC_001): frame rendered
+2026-03-01T09:00:02.429 [INFO] VoiceAssistant (TC_VOICE_002): intent resolved
+2026-03-01T09:00:02.742 [INFO] VoiceAssistant (TC_VOICE_002): intent resolved
+2026-03-01T09:00:02.904 [FATAL] BluetoothStack (TC_BLUET_003): segmentation fault in BluetoothStack
+2026-03-01T09:00:02.991 [INFO] Navigation (TC_NAVIG_003): gps fix acquired
+2026-03-01T09:00:03.435 [WARNING] ClimateControl (TC_CLIMA_002): deprecated API used, non-blocking
+2026-03-01T09:00:03.759 [INFO] MediaPlayer (TC_MEDIA_001): volume set
+2026-03-01T09:00:03.883 [INFO] Navigation (TC_NAVIG_001): gps fix acquired
+2026-03-01T09:00:04.123 [INFO] ClimateControl (TC_CLIMA_001): zone synced
+2026-03-01T09:00:04.431 [ERROR] AppFramework (TC_APPFR_002): no response from AppFramework within deadline
+2026-03-01T09:00:04.794 [INFO] RearCamera (TC_REARC_002): overlay drawn
+2026-03-01T09:00:05.202 [INFO] MediaPlayer (TC_MEDIA_001): buffering ok
+2026-03-01T09:00:05.466 [INFO] ClimateControl (TC_CLIMA_001): temperature set
+2026-03-01T09:00:05.845 [INFO] Navigation (TC_NAVIG_003): map tile loaded
+2026-03-01T09:00:06.342 [INFO] AppFramework (TC_APPFR_002): lifecycle resumed
+2026-03-01T09:00:06.714 [WARNING] ClimateControl (TC_CLIMA_002): transient cache miss, retried successfully
+2026-03-01T09:00:07.187 [INFO] Navigation (TC_NAVIG_001): map tile loaded
+2026-03-01T09:00:07.290 [INFO] MediaPlayer (TC_MEDIA_001): buffering ok
+2026-03-01T09:00:07.398 [INFO] BluetoothStack (TC_BLUET_002): a2dp connected
+2026-03-01T09:00:07.861 [INFO] VoiceAssistant (TC_VOICE_001): wake word detected
+2026-03-01T09:00:08.113 [INFO] RearCamera (TC_REARC_002): stream started
+2026-03-01T09:00:08.532 [INFO] AppFramework (TC_APPFR_003): lifecycle resumed
+2026-03-01T09:00:08.899 [INFO] Navigation (TC_NAVIG_003): gps fix acquired
+2026-03-01T09:00:09.380 [INFO] BluetoothStack (TC_BLUET_001): device paired
+2026-03-01T09:00:09.499 [INFO] ClimateControl (TC_CLIMA_001): temperature set
+2026-03-01T09:00:09.767 [INFO] RearCamera (TC_REARC_001): frame rendered
+2026-03-01T09:00:09.944 [INFO] BluetoothStack (TC_BLUET_002): phonebook synced
+2026-03-01T09:00:10.160 [INFO] RearCamera (TC_REARC_002): stream started
+2026-03-01T09:00:10.520 [INFO] RearCamera (TC_REARC_003): overlay drawn
+2026-03-01T09:00:10.875 [ERROR] MediaPlayer (TC_MEDIA_002): ASSERT(MediaPlayer_ready) failed
+2026-03-01T09:00:11.104 [INFO] VoiceAssistant (TC_VOICE_001): intent resolved
+2026-03-01T09:00:11.439 [INFO] MediaPlayer (TC_MEDIA_001): playback started
+2026-03-01T09:00:11.932 [INFO] VoiceAssistant (TC_VOICE_001): wake word detected
+2026-03-01T09:00:12.135 [INFO] MediaPlayer (TC_MEDIA_001): playback started
+2026-03-01T09:00:12.441 [INFO] RearCamera (TC_REARC_001): frame rendered
+2026-03-01T09:00:12.767 [INFO] MediaPlayer (TC_MEDIA_001): volume set
+2026-03-01T09:00:12.884 [INFO] Navigation (TC_NAVIG_002): map tile loaded
+2026-03-01T09:00:13.097 [INFO] MediaPlayer (TC_MEDIA_001): volume set
+2026-03-01T09:00:13.594 [INFO] VoiceAssistant (TC_VOICE_002): intent resolved
+2026-03-01T09:00:13.785 [INFO] BluetoothStack (TC_BLUET_001): phonebook synced
+2026-03-01T09:00:13.989 [INFO] Navigation (TC_NAVIG_002): map tile loaded
+2026-03-01T09:00:14.111 [INFO] MediaPlayer (TC_MEDIA_001): buffering ok
+2026-03-01T09:00:14.227 [INFO] RearCamera (TC_REARC_001): overlay drawn
+2026-03-01T09:00:14.412 [INFO] ClimateControl (TC_CLIMA_001): zone synced
+2026-03-01T09:00:14.842 [INFO] RearCamera (TC_REARC_002): stream started
+2026-03-01T09:00:15.052 [WARNING] BluetoothStack (TC_BLUET_003): clock drift 2ms within tolerance
+2026-03-01T09:00:15.453 [INFO] Navigation (TC_NAVIG_003): route calculated
+2026-03-01T09:00:15.779 [INFO] AppFramework (TC_APPFR_001): app launched
+2026-03-01T09:00:16.197 [INFO] ClimateControl (TC_CLIMA_001): temperature set
+2026-03-01T09:00:16.480 [INFO] Navigation (TC_NAVIG_003): route calculated
+2026-03-01T09:00:16.975 [INFO] AppFramework (TC_APPFR_002): lifecycle resumed
+2026-03-01T09:00:17.142 [INFO] ClimateControl (TC_CLIMA_003): fan adjusted
+2026-03-01T09:00:17.393 [INFO] ClimateControl (TC_CLIMA_002): fan adjusted
+2026-03-01T09:00:17.479 [INFO] MediaPlayer (TC_MEDIA_001): volume set
+2026-03-01T09:00:17.618 [INFO] BluetoothStack (TC_BLUET_002): phonebook synced
+2026-03-01T09:00:18.111 [INFO] RearCamera (TC_REARC_001): frame rendered
+2026-03-01T09:00:18.570 [INFO] Navigation (TC_NAVIG_003): route calculated
+2026-03-01T09:00:18.996 [INFO] MediaPlayer (TC_MEDIA_002): track changed
+2026-03-01T09:00:19.261 [INFO] BluetoothStack (TC_BLUET_002): phonebook synced
+2026-03-01T09:00:19.461 [INFO] AppFramework (TC_APPFR_003): lifecycle resumed
+2026-03-01T09:00:19.719 [INFO] ClimateControl (TC_CLIMA_001): zone synced
+2026-03-01T09:00:19.841 [INFO] BluetoothStack (TC_BLUET_001): device paired
+2026-03-01T09:00:20.156 [INFO] VoiceAssistant (TC_VOICE_003): wake word detected
+2026-03-01T09:00:20.482 [INFO] RearCamera (TC_REARC_002): overlay drawn
+2026-03-01T09:00:20.953 [INFO] BluetoothStack (TC_BLUET_003): phonebook synced
+2026-03-01T09:00:21.062 [INFO] MediaPlayer (TC_MEDIA_003): playback started
+2026-03-01T09:00:21.349 [INFO] BluetoothStack (TC_BLUET_002): device paired
+2026-03-01T09:00:21.771 [INFO] BluetoothStack (TC_BLUET_001): a2dp connected
+2026-03-01T09:00:21.917 [INFO] RearCamera (TC_REARC_001): overlay drawn
+2026-03-01T09:00:22.114 [INFO] RearCamera (TC_REARC_002): stream started
+2026-03-01T09:00:22.191 [INFO] ClimateControl (TC_CLIMA_002): fan adjusted
+2026-03-01T09:00:22.539 [INFO] AppFramework (TC_APPFR_003): lifecycle resumed
+2026-03-01T09:00:22.961 [INFO] RearCamera (TC_REARC_001): overlay drawn
+2026-03-01T09:00:23.080 [WARNING] RearCamera (TC_REARC_001): RearCamera slow frame: 410ms
+2026-03-01T09:00:23.479 [INFO] RearCamera (TC_REARC_001): stream started
+2026-03-01T09:00:23.607 [INFO] VoiceAssistant (TC_VOICE_003): tts finished
+2026-03-01T09:00:23.711 [INFO] MediaPlayer (TC_MEDIA_002): volume set
+2026-03-01T09:00:24.114 [INFO] MediaPlayer (TC_MEDIA_003): playback started
+2026-03-01T09:00:24.276 [INFO] Navigation (TC_NAVIG_001): route calculated
+2026-03-01T09:00:24.554 [INFO] RearCamera (TC_REARC_001): stream started
+2026-03-01T09:00:24.803 [INFO] RearCamera (TC_REARC_003): overlay drawn
+2026-03-01T09:00:25.084 [INFO] ClimateControl (TC_CLIMA_002): fan adjusted
+2026-03-01T09:00:25.363 [INFO] AppFramework (TC_APPFR_002): ipc ok
+2026-03-01T09:00:25.836 [INFO] ClimateControl (TC_CLIMA_003): fan adjusted
+2026-03-01T09:00:26.302 [WARNING] BluetoothStack (TC_BLUET_002): config value missing, using default
+2026-03-01T09:00:26.539 [INFO] VoiceAssistant (TC_VOICE_002): intent resolved
+2026-03-01T09:00:26.622 [INFO] BluetoothStack (TC_BLUET_002): device paired
+2026-03-01T09:00:26.767 [INFO] Navigation (TC_NAVIG_001): route calculated
+2026-03-01T09:00:27.240 [INFO] ClimateControl (TC_CLIMA_003): fan adjusted
+2026-03-01T09:00:27.355 [INFO] BluetoothStack (TC_BLUET_002): device paired
+2026-03-01T09:00:27.741 [INFO] MediaPlayer (TC_MEDIA_002): volume set
+2026-03-01T09:00:27.864 [INFO] ClimateControl (TC_CLIMA_001): temperature set
+2026-03-01T09:00:28.232 [FATAL] RearCamera (TC_REARC_002): RearCamera process terminated unexpectedly
+2026-03-01T09:00:28.471 [INFO] Navigation (TC_NAVIG_002): route calculated
+2026-03-01T09:00:28.846 [INFO] MediaPlayer (TC_MEDIA_002): volume set
+2026-03-01T09:00:29.094 [INFO] MediaPlayer (TC_MEDIA_002): buffering ok
+2026-03-01T09:00:29.377 [INFO] Navigation (TC_NAVIG_003): route calculated
+2026-03-01T09:00:29.478 [INFO] AppFramework (TC_APPFR_001): app launched
+2026-03-01T09:00:29.566 [INFO] Navigation (TC_NAVIG_001): route calculated
+2026-03-01T09:00:29.738 [INFO] BluetoothStack (TC_BLUET_002): phonebook synced
+2026-03-01T09:00:30.156 [INFO] Navigation (TC_NAVIG_002): route calculated
+2026-03-01T09:00:30.448 [INFO] RearCamera (TC_REARC_003): frame rendered
+2026-03-01T09:00:30.813 [INFO] MediaPlayer (TC_MEDIA_002): playback started
+2026-03-01T09:00:31.223 [INFO] BluetoothStack (TC_BLUET_002): device paired
+2026-03-01T09:00:31.394 [INFO] MediaPlayer (TC_MEDIA_003): playback started
+2026-03-01T09:00:31.804 [INFO] MediaPlayer (TC_MEDIA_003): track changed
+2026-03-01T09:00:31.884 [INFO] AppFramework (TC_APPFR_001): lifecycle resumed
+2026-03-01T09:00:31.939 [INFO] RearCamera (TC_REARC_002): frame rendered
+2026-03-01T09:00:32.269 [INFO] MediaPlayer (TC_MEDIA_003): track changed
+2026-03-01T09:00:32.741 [INFO] BluetoothStack (TC_BLUET_002): device paired
+2026-03-01T09:00:32.873 [INFO] Navigation (TC_NAVIG_003): gps fix acquired
+2026-03-01T09:00:33.162 [INFO] BluetoothStack (TC_BLUET_002): a2dp connected
+2026-03-01T09:00:33.437 [INFO] BluetoothStack (TC_BLUET_002): a2dp connected
+2026-03-01T09:00:33.849 [INFO] Navigation (TC_NAVIG_001): route calculated
+2026-03-01T09:00:33.907 [INFO] RearCamera (TC_REARC_003): stream started
+2026-03-01T09:00:34.188 [INFO] BluetoothStack (TC_BLUET_002): device paired
+2026-03-01T09:00:34.535 [INFO] ClimateControl (TC_CLIMA_002): zone synced
+2026-03-01T09:00:34.807 [INFO] AppFramework (TC_APPFR_002): ipc ok
+2026-03-01T09:00:34.996 [INFO] BluetoothStack (TC_BLUET_001): a2dp connected
+2026-03-01T09:00:35.135 [INFO] ClimateControl (TC_CLIMA_003): zone synced

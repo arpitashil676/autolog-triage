@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Generated artifacts
+reports/*.report.*
+reports/experiment_results.json
+
+# Keep a sample dataset out of git by default; comment out to commit it
+data/raw/*.log
+data/labels/*.json
+
+# Env
+.env

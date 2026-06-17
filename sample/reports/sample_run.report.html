@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Triage Report sample_run</title>
+<style>
+ body{font-family:system-ui,Arial,sans-serif;margin:2rem;color:#1a1a1a}
+ h1{font-size:1.4rem} .meta{color:#555;font-size:.9rem}
+ table{border-collapse:collapse;width:100%;margin-top:1rem;font-size:.85rem}
+ th,td{border:1px solid #ddd;padding:.4rem .6rem;text-align:left;vertical-align:top}
+ th{background:#f4f4f4}
+ .critical{color:#b00020;font-weight:600}.error{color:#c0392b}.warning{color:#a67c00}
+</style></head><body>
+<h1>Test Run Triage Report — sample_run</h1>
+<p class="meta">Source: sample/data/raw/sample_run.log · Generated 2026-06-16 12:29 UTC ·
+129 lines · 9 findings (2 critical)</p>
+<h2>Executive Summary</h2><p>Run analysis complete: 9 finding(s), 2 critical. Critical and error findings should be triaged first; see the table below for per-finding root cause and actions.</p>
+<h2>Findings</h2>
+<table><tr><th>#</th><th>Severity</th><th>Component</th><th>Test Case</th><th>Category</th>
+<th>Summary</th><th>Probable Root Cause</th><th>Recommended Action</th><th>FP?</th></tr>
+<tr>
+<td>1</td><td class="critical">critical</td>
+<td>BluetoothStack</td><td>TC_BLUET_003</td><td>crash</td>
+<td>segmentation fault in BluetoothStack</td><td>Unhandled exception or memory fault in BluetoothStack.</td><td>Capture core dump; retest in isolation; file blocking defect.</td>
+<td>no</td></tr><tr>
+<td>2</td><td class="critical">critical</td>
+<td>RearCamera</td><td>TC_REARC_002</td><td>crash</td>
+<td>RearCamera process terminated unexpectedly</td><td>Unhandled exception or memory fault in RearCamera.</td><td>Capture core dump; retest in isolation; file blocking defect.</td>
+<td>no</td></tr><tr>
+<td>3</td><td class="error">error</td>
+<td>AppFramework</td><td>TC_APPFR_002</td><td>timeout</td>
+<td>no response from AppFramework within deadline</td><td>AppFramework dependency unresponsive or deadlock.</td><td>Increase trace verbosity on the dependency; check deadlines.</td>
+<td>no</td></tr><tr>
+<td>4</td><td class="error">error</td>
+<td>MediaPlayer</td><td>TC_MEDIA_002</td><td>assertion</td>
+<td>ASSERT(MediaPlayer_ready) failed</td><td>MediaPlayer reached an invalid state precondition.</td><td>Review state machine and preconditions around the assert.</td>
+<td>no</td></tr><tr>
+<td>5</td><td class="warning">warning</td>
+<td>RearCamera</td><td>TC_REARC_001</td><td>anomalous_latency</td>
+<td>RearCamera slow frame: 410ms</td><td>RearCamera resource contention or slow I/O.</td><td>Profile the component; compare against latency budget.</td>
+<td>no</td></tr><tr>
+<td>6</td><td class="warning">warning</td>
+<td>ClimateControl</td><td>TC_CLIMA_002</td><td>unknown</td>
+<td>deprecated API used, non-blocking</td><td>Insufficient signal to determine a specific cause.</td><td>Re-run with debug logging to gather more evidence.</td>
+<td>yes</td></tr><tr>
+<td>7</td><td class="warning">warning</td>
+<td>ClimateControl</td><td>TC_CLIMA_002</td><td>unknown</td>
+<td>transient cache miss, retried successfully</td><td>Insufficient signal to determine a specific cause.</td><td>Re-run with debug logging to gather more evidence.</td>
+<td>yes</td></tr><tr>
+<td>8</td><td class="warning">warning</td>
+<td>BluetoothStack</td><td>TC_BLUET_003</td><td>unknown</td>
+<td>clock drift 2ms within tolerance</td><td>Insufficient signal to determine a specific cause.</td><td>Re-run with debug logging to gather more evidence.</td>
+<td>yes</td></tr><tr>
+<td>9</td><td class="warning">warning</td>
+<td>BluetoothStack</td><td>TC_BLUET_002</td><td>unknown</td>
+<td>config value missing, using default</td><td>Insufficient signal to determine a specific cause.</td><td>Re-run with debug logging to gather more evidence.</td>
+<td>yes</td></tr>
+</table></body></html>

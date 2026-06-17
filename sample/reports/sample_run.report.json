@@ -1,0 +1,171 @@
+{
+  "run_id": "sample_run",
+  "source_file": "sample/data/raw/sample_run.log",
+  "generated_at": "2026-06-16T12:29:05.641323",
+  "total_log_lines": 129,
+  "findings": [
+    {
+      "finding_id": "F-3c48e640",
+      "test_case": "TC_BLUET_003",
+      "component": "BluetoothStack",
+      "severity": "critical",
+      "category": "crash",
+      "summary": "segmentation fault in BluetoothStack",
+      "detector": "rule_based",
+      "evidence_line_nos": [
+        13
+      ],
+      "first_timestamp": "2026-03-01T09:00:02.904000",
+      "confidence": 0.9,
+      "probable_root_cause": "Unhandled exception or memory fault in BluetoothStack.",
+      "recommended_action": "Capture core dump; retest in isolation; file blocking defect.",
+      "is_likely_false_positive": false,
+      "agent_rationale": "Categorized as 'crash' for BluetoothStack from log evidence."
+    },
+    {
+      "finding_id": "F-997387e2",
+      "test_case": "TC_REARC_002",
+      "component": "RearCamera",
+      "severity": "critical",
+      "category": "crash",
+      "summary": "RearCamera process terminated unexpectedly",
+      "detector": "rule_based",
+      "evidence_line_nos": [
+        102
+      ],
+      "first_timestamp": "2026-03-01T09:00:28.232000",
+      "confidence": 0.9,
+      "probable_root_cause": "Unhandled exception or memory fault in RearCamera.",
+      "recommended_action": "Capture core dump; retest in isolation; file blocking defect.",
+      "is_likely_false_positive": false,
+      "agent_rationale": "Categorized as 'crash' for RearCamera from log evidence."
+    },
+    {
+      "finding_id": "F-cb2a8f6f",
+      "test_case": "TC_APPFR_002",
+      "component": "AppFramework",
+      "severity": "error",
+      "category": "timeout",
+      "summary": "no response from AppFramework within deadline",
+      "detector": "rule_based",
+      "evidence_line_nos": [
+        19
+      ],
+      "first_timestamp": "2026-03-01T09:00:04.431000",
+      "confidence": 0.9,
+      "probable_root_cause": "AppFramework dependency unresponsive or deadlock.",
+      "recommended_action": "Increase trace verbosity on the dependency; check deadlines.",
+      "is_likely_false_positive": false,
+      "agent_rationale": "Categorized as 'timeout' for AppFramework from log evidence."
+    },
+    {
+      "finding_id": "F-8b67e2ac",
+      "test_case": "TC_MEDIA_002",
+      "component": "MediaPlayer",
+      "severity": "error",
+      "category": "assertion",
+      "summary": "ASSERT(MediaPlayer_ready) failed",
+      "detector": "rule_based",
+      "evidence_line_nos": [
+        39
+      ],
+      "first_timestamp": "2026-03-01T09:00:10.875000",
+      "confidence": 0.9,
+      "probable_root_cause": "MediaPlayer reached an invalid state precondition.",
+      "recommended_action": "Review state machine and preconditions around the assert.",
+      "is_likely_false_positive": false,
+      "agent_rationale": "Categorized as 'assertion' for MediaPlayer from log evidence."
+    },
+    {
+      "finding_id": "F-7e47f8e8",
+      "test_case": "TC_REARC_001",
+      "component": "RearCamera",
+      "severity": "warning",
+      "category": "anomalous_latency",
+      "summary": "RearCamera slow frame: 410ms",
+      "detector": "rule_based",
+      "evidence_line_nos": [
+        83
+      ],
+      "first_timestamp": "2026-03-01T09:00:23.080000",
+      "confidence": 0.9,
+      "probable_root_cause": "RearCamera resource contention or slow I/O.",
+      "recommended_action": "Profile the component; compare against latency budget.",
+      "is_likely_false_positive": false,
+      "agent_rationale": "Categorized as 'anomalous_latency' for RearCamera from log evidence."
+    },
+    {
+      "finding_id": "F-b9a501a1",
+      "test_case": "TC_CLIMA_002",
+      "component": "ClimateControl",
+      "severity": "warning",
+      "category": "unknown",
+      "summary": "deprecated API used, non-blocking",
+      "detector": "rule_based",
+      "evidence_line_nos": [
+        15
+      ],
+      "first_timestamp": "2026-03-01T09:00:03.435000",
+      "confidence": 0.6,
+      "probable_root_cause": "Insufficient signal to determine a specific cause.",
+      "recommended_action": "Re-run with debug logging to gather more evidence.",
+      "is_likely_false_positive": true,
+      "agent_rationale": "Categorized as 'unknown' for ClimateControl from log evidence."
+    },
+    {
+      "finding_id": "F-32cd1d31",
+      "test_case": "TC_CLIMA_002",
+      "component": "ClimateControl",
+      "severity": "warning",
+      "category": "unknown",
+      "summary": "transient cache miss, retried successfully",
+      "detector": "rule_based",
+      "evidence_line_nos": [
+        25
+      ],
+      "first_timestamp": "2026-03-01T09:00:06.714000",
+      "confidence": 0.6,
+      "probable_root_cause": "Insufficient signal to determine a specific cause.",
+      "recommended_action": "Re-run with debug logging to gather more evidence.",
+      "is_likely_false_positive": true,
+      "agent_rationale": "Categorized as 'unknown' for ClimateControl from log evidence."
+    },
+    {
+      "finding_id": "F-fe654215",
+      "test_case": "TC_BLUET_003",
+      "component": "BluetoothStack",
+      "severity": "warning",
+      "category": "unknown",
+      "summary": "clock drift 2ms within tolerance",
+      "detector": "rule_based",
+      "evidence_line_nos": [
+        55
+      ],
+      "first_timestamp": "2026-03-01T09:00:15.052000",
+      "confidence": 0.6,
+      "probable_root_cause": "Insufficient signal to determine a specific cause.",
+      "recommended_action": "Re-run with debug logging to gather more evidence.",
+      "is_likely_false_positive": true,
+      "agent_rationale": "Categorized as 'unknown' for BluetoothStack from log evidence."
+    },
+    {
+      "finding_id": "F-f6e835e8",
+      "test_case": "TC_BLUET_002",
+      "component": "BluetoothStack",
+      "severity": "warning",
+      "category": "unknown",
+      "summary": "config value missing, using default",
+      "detector": "rule_based",
+      "evidence_line_nos": [
+        94
+      ],
+      "first_timestamp": "2026-03-01T09:00:26.302000",
+      "confidence": 0.6,
+      "probable_root_cause": "Insufficient signal to determine a specific cause.",
+      "recommended_action": "Re-run with debug logging to gather more evidence.",
+      "is_likely_false_positive": true,
+      "agent_rationale": "Categorized as 'unknown' for BluetoothStack from log evidence."
+    }
+  ],
+  "summary_text": "Run analysis complete: 9 finding(s), 2 critical. Critical and error findings should be triaged first; see the table below for per-finding root cause and actions."
+}

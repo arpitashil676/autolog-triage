@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autolog-triage"
+version = "0.1.0"
+description = "Autonomous multi-agent system for automotive test-log triage and report generation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scikit-learn>=1.3",
+    "jinja2>=3.1",
+]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.110", "uvicorn>=0.27", "pydantic>=2.5"]
+llm = ["anthropic>=0.40"]
+dev = ["pytest>=8.0", "pytest-cov>=4.1", "ruff>=0.5", "mypy>=1.10", "httpx>=0.27", "fastapi>=0.110", "pydantic>=2.5"]
+
+[project.scripts]
+autolog = "autolog_triage.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true

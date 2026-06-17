@@ -1,0 +1,40 @@
+{
+  "run_id": "sample_run",
+  "findings": [
+    {
+      "line_no": 13,
+      "test_case": "TC_BLUET_003",
+      "component": "BluetoothStack",
+      "category": "crash",
+      "severity": "critical"
+    },
+    {
+      "line_no": 19,
+      "test_case": "TC_APPFR_002",
+      "component": "AppFramework",
+      "category": "timeout",
+      "severity": "error"
+    },
+    {
+      "line_no": 39,
+      "test_case": "TC_MEDIA_002",
+      "component": "MediaPlayer",
+      "category": "assertion",
+      "severity": "error"
+    },
+    {
+      "line_no": 83,
+      "test_case": "TC_REARC_001",
+      "component": "RearCamera",
+      "category": "anomalous_latency",
+      "severity": "warning"
+    },
+    {
+      "line_no": 102,
+      "test_case": "TC_REARC_002",
+      "component": "RearCamera",
+      "category": "crash",
+      "severity": "critical"
+    }
+  ]
+}
