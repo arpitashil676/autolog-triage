@@ -1,8 +1,8 @@
-# Thesis companion: AutoLog Triage
+# Case Study companion: AutoLog Triage
 
 This document frames the repository as a master's-level study so the code and
 the academic write-up stay aligned. It is intentionally concise; expand each
-section in the actual thesis.
+section in the actual study.
 
 ## 1. Problem statement
 

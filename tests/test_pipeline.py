@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import json
 from pathlib import Path
 
 from autolog_triage.agents.llm import MockLLMProvider
